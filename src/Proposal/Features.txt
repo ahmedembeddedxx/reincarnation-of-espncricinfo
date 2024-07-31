@@ -1,0 +1,15 @@
+Reincarnation of ESPNCricInfo
+
+Login (Admin)
+Sign in/up (User)
+News/Daily Updates (Read)
+Player’s Profile (Read)
+Team’s Profile (Read)
+Domestic Fixtures (Read)
+International Fixtures (Read)
+Records (Read)
+Update Player Record (Update)(Delete)
+Update Team Record (Update)(Delete)
+Add Player (Create)
+Add Team (Create)
+

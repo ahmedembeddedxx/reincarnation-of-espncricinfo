@@ -1,0 +1,354 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: monospace;
+}
+
+html
+{
+    font-family: monospace;
+    background: #c2c2c2;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #282828;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 300%;
+    width: 25%;
+    border: 3px solid transparent;
+    background-color: #c2c2c2;
+    border-radius: 15px;
+    transition: 150ms ease-in;
+    cursor:default;
+    margin-bottom: 10px;
+}
+#logo:hover
+{
+    font-size: 340%;
+    background-color: #282828;
+    color: #C2C2C2;
+}
+
+#searchButton
+{
+    margin: 10px;
+    font-family: monospace;
+    font-size: 100%;
+    height: 30px;
+    width: 5%;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 3px solid transparent;
+    background-color: #282828;
+    color: #C2C2C2;
+    transition: 150ms ease-in, font-size 300ms ease-in-out, background-color 300ms ease-in-out, color 300ms ease-in-out;
+    cursor: pointer;
+}
+
+#searchButton:hover
+{
+    color: #282828;
+    background-color: #C2C2C2;
+    border: 3px solid #282828;
+}
+#search
+{
+    margin-left: 37.5%;
+    font-family: monospace;
+    font-size: 100%;
+    height: 30px;
+    width: 20%;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #282828;
+    color: #c2c2c2;
+    border: 2px solid transparent;
+}
+
+#search:hover
+{
+    border: 2px solid #c2c2c2;
+}
+
+#search::placeholder
+{
+    color: #c2c2c2;
+}
+
+
+
+#date {
+    padding: 0px 3px;
+    margin-right: 30px;
+    font-weight: bold;
+    background-color: #C2C2C2;
+    text-decoration: solid;
+    text-align: center;
+    border: 3px solid transparent;
+    color: #282828;
+    border-radius: 5px;
+    transition: 150ms ease-in, font-size 300ms ease-in-out, background-color 300ms ease-in-out, color 300ms ease-in-out;
+    cursor: default;
+}
+
+#date:hover {
+    background-color: #282828;
+    color: #C2C2C2;
+}
+
+.general_align {
+    width: 100%;
+    background-color: #282828;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.b1 {
+    background-color: #c2c2c2;
+    color: #282828;
+    margin: 5px;
+    font-family: monospace;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    font-size: 170%;
+    height: 90%;
+    width: 20%;
+    flex-grow: 1;
+    transition: 200ms ease-in;
+}
+
+.b1:hover {
+    background-color: #282828;
+    color: #c2c2c2;
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.b3
+{
+    background-color: #282828;
+    color: #c2c2c2;
+    font-size: 200%;
+    cursor: pointer;
+}
+
+.b3:hover
+{
+    cursor:default;
+}
+
+#FormTable {
+    padding: 20px;
+    font-family: monospace;
+    width: 90%;
+    background-color: #282828;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    margin: 0 auto;
+}
+
+#SignInFormTable {
+    padding-top: 20px;
+    font-family: monospace;
+    width: 50%;
+    background-color: #9b9999;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    margin: 0 auto;
+    border: 3px solid #282828;
+}
+
+
+.input_creds
+{
+    font-weight: bold;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 150%;
+    height: 50px;
+    width: 90%;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 2px solid transparent;
+}
+
+.input_creds:hover
+{
+    border: 2px solid #282828;
+}
+
+.input_creds::placeholder
+{
+    padding-left: 2px;
+}
+
+.b2
+{
+    font-weight: bold;
+    background-color: #282828;
+    color: #C2C2C2;
+    justify-content: right;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 150%;
+    height: 40px;
+    width: 50%;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    padding-left: 10px;
+    transition: 100ms ease-in;
+}
+
+.b2:hover
+{
+    background-color: #C2C2C2;
+    color: #282828;
+    font-size: large;
+    border: 3px solid #282828;
+    cursor: pointer;
+}
+
+.b4
+{
+    font-weight: bold;
+    background-color: #c2c2c2;
+    color: #282828;
+    justify-content: right;
+    font-family: monospace;
+    font-size: 100%;
+    height: 30px;
+    width: 100%;
+    border: 2px solid #c2c2c2;
+    border-radius: 5px;
+    transition: 100ms ease-in;
+}
+
+.b4:hover
+{
+    background-color: #282828;
+    color: #c2c2c2;
+    border: 2px solid #c2c2c2;
+    cursor: pointer;
+}
+
+.b5
+{
+    font-weight: bold;
+    color: #C2C2C2;
+    justify-content: right;
+    font-family: monospace;
+    font-size: 100%;
+    height: 30px;
+    width: 100%;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    transition: 100ms ease-in;
+}
+
+.b5:hover
+{
+    border: 3px solid #c2c2c2;
+    cursor: pointer;
+}
+
+
+
+.displaytext
+{
+    text-align: justify;
+}
+
+h3
+{
+    color: #282828;
+    font-family: monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2
+{
+    color: #C2C2C2;
+}
+
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+footer
+{
+    color: #282828;
+    text-align: center;
+}
+
+.news
+{
+    color: #c2c2c2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid #C2C2C2;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+td
+{
+    color: #C2C2C2;
+}
+
+td,th {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    border: 3px solid #aeaaaa;
+    color: #282828;
+    background-color: #c2c2c2; 
+}
