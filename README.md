@@ -31,13 +31,13 @@ Welcome to The Reincarnation of ESPNCricInfo, a modernized cricket platform desi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ahmedembeddedx/the_reincarnation_of_espncricinfo.git
+   git clone https://github.com/ahmedembeddedxx/reincarnation-of-espncricinfo.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd the_reincarnation_of_espncricinfo
+   cd reincarnation_of_espncricinfo
    ```
 
 3. Install dependencies:
